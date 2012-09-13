@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <link rel="stylesheet" href="css/dragdealer.css" />
+        <style type="text/css">
+            #slideshow{
+                width: 400px;
+                height: 267px;
+                overflow: hidden;
+            }
+            .handle {
+                width: 1600px;
+                height: 267px;
+            }
+            .handle .slide {
+                float: left;
+                width: 400px;
+                height: 267px;
+            }
+
+        </style>
+        <script src="js/dragdealer.js"></script>
+  </head>
+  <body>
+      <div id="slideshow" class="dragdealer">
+          <div class="handle">
+              <img class="slide" width="400px" height="400px" src="http://localhost/projetos/armarium/android/assets/www/img/logo.jpg">
+              <img class="slide" width="400px" height="400px" src="http://localhost/projetos/armarium/android/assets/www/img/logo.jpg">
+              <img class="slide" width="400px" height="400px" src="http://localhost/projetos/armarium/android/assets/www/img/logo.jpg">
+              <img class="slide" width="400px" height="400px" src="http://localhost/projetos/armarium/android/assets/www/img/logo.jpg">
+          </div>
+      </div>
+      <script type="text/javascript">
+          var slideshow = new Dragdealer('slideshow',{
+            steps: 4,                                            
+            s: true,
+            animationCallback: function(x, y)
+            {
+               // var top = x * (menuWrapper.offsetHeight - cursor.offsetHeight);
+               // cursor.style.top = String(top) + 'px';
+            }
+          });
+      </script>
+  </body>
+</html>
