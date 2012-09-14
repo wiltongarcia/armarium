@@ -1,0 +1,659 @@
+Tarmarium
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Info.plist armarium/armarium-Info.plist
+cPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/www
+cCopyPlistFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Cordova.plist armarium/Resources/../Cordova.plist
+cCpResource armarium/Resources/icons/icon-72.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon-72.png
+cCpResource armarium/Resources/icons/icon.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon.png
+cCpResource armarium/Resources/icons/icon@2x.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon@2x.png
+cCpResource armarium/Resources/Capture.bundle /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Capture.bundle
+cCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/en.lproj/Localizable.strings armarium/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/es.lproj/Localizable.strings armarium/Resources/es.lproj/Localizable.strings
+cCompileXIB /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.xib
+cCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/de.lproj/Localizable.strings armarium/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/se.lproj/Localizable.strings armarium/Resources/se.lproj/Localizable.strings
+cCpResource armarium/Resources/splash/Default-Landscape@2x~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape@2x~ipad.png
+cCpResource armarium/Resources/splash/Default-Landscape~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape~ipad.png
+cCpResource armarium/Resources/splash/Default-Portrait@2x~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait@2x~ipad.png
+cCpResource armarium/Resources/splash/Default-Portrait~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait~ipad.png
+cCpResource armarium/Resources/splash/Default@2x~iphone.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default@2x~iphone.png
+cCpResource armarium/Resources/splash/Default~iphone.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default~iphone.png
+cProcessPCH /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.pth armarium/armarium-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.o /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.o /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.o /Library/WebServer/Documents/projetos/armarium/ios/armarium/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium normal i386
+cGenerateDSYMFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYM /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium
+cTouch /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c00000000502A78440000000000000110
+t1344960580
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000501D53A40000000000182900
+t1344099236
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000501D53A40000000000095860
+t1344099236
+s612448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000501D53A40000000000169880
+t1344099236
+s1480832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000501D53A500000000002FDC30
+t1344099237
+s3136560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000501D53A500000000002051E0
+t1344099237
+s2118112
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000501D53A50000000000244490
+t1344099237
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000501D53A50000000000089510
+t1344099237
+s562448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000501D53A50000000000069670
+t1344099237
+s431728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000501D53A60000000000353830
+t1344099238
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000501D53A90000000000243A90
+t1344099241
+s2374288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000501D53A900000000000998D0
+t1344099241
+s628944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000501D53A900000000001AB190
+t1344099241
+s1749392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000501D53A9000000000006C8A0
+t1344099241
+s444576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000501D53AC0000000000905E40
+t1344099244
+s9461312
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.h
+c0000000050536B1000000000000005BF
+t1347644176
+s1471
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m
+c0000000050536B1000000000000012FF
+t1347644176
+s4863
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.h
+c0000000050536B10000000000000040F
+t1347644176
+s1039
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m
+c0000000050536B100000000000000FFF
+t1347644176
+s4095
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.xib
+c0000000050536B0F0000000000001759
+t1347644175
+s5977
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/../Cordova.plist
+c0000000050536B0F000000000000094C
+t1347644175
+s2380
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/Capture.bundle
+c0000000050536B0F00000000000002EC
+t1347644175
+s748
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/de.lproj/Localizable.strings
+c0000000050536B0F0000000000000485
+t1347644175
+s1157
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/en.lproj/Localizable.strings
+c0000000050536B0F0000000000000470
+t1347644175
+s1136
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/es.lproj/Localizable.strings
+c0000000050536B0F000000000000047D
+t1347644175
+s1149
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/icons/icon-72.png
+c0000000050536B0F0000000000001350
+t1347644175
+s4944
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/icons/icon.png
+c0000000050536B0F0000000000000F3E
+t1347644175
+s3902
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/icons/icon@2x.png
+c0000000050536B0F0000000000001EBD
+t1347644175
+s7869
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/se.lproj/Localizable.strings
+c0000000050536B0F0000000000000471
+t1347644175
+s1137
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000050536B0F0000000000176888
+t1347644175
+s1534088
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Landscape~ipad.png
+c0000000050536B0F00000000000674B7
+t1347644175
+s423095
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000050536B0F00000000001892C2
+t1347644175
+s1610434
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Portrait~ipad.png
+c0000000050536B0F0000000000066F23
+t1347644175
+s421667
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default@2x~iphone.png
+c0000000050536B0F0000000000055981
+t1347644175
+s350593
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default~iphone.png
+c0000000050536B0F0000000000016EC9
+t1347644175
+s93897
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/armarium-Prefix.pch
+c0000000050536B1000000000000003C1
+t1347644176
+s961
+
+N/Library/WebServer/Documents/projetos/armarium/ios/armarium/main.m
+c0000000050536B100000000000000453
+t1347644176
+s1107
+
+N/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/armarium.LinkFileList
+c0000000050536DE000000000000001AD
+t1347644896
+s429
+
+N/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Script-304B58A110DAC018002A0835.sh
+c0000000050536DE00000000000000027
+t1347644896
+s39
+
+N/Library/WebServer/Documents/projetos/armarium/ios/www
+c0000000050536D870000000000000132
+t1347644807
+s306
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/build/libCordova.a
+c0000000050536DE0000000000029B9A0
+t1347644896
+s2734496
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYM
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Capture.bundle
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Cordova.plist
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default~iphone.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Info.plist
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/MainViewController.nib
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/PkgInfo
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon-72.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon@2x.png
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/www
+t2
+s0
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVCommandDelegate.h
+c0000000050536D850000000000000455
+t1347644805
+s1109
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVCordovaView.h
+c0000000050536D850000000000000355
+t1347644805
+s853
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000050536D8500000000000006E6
+t1347644805
+s1766
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVPlugin.h
+c0000000050536D8500000000000007E5
+t1347644805
+s2021
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVPluginResult.h
+c0000000050536D85000000000000098A
+t1347644805
+s2442
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVURLProtocol.h
+c0000000050536D8500000000000004B1
+t1347644805
+s1201
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVViewController.h
+c0000000050536D850000000000000996
+t1347644805
+s2454
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/CDVWhitelist.h
+c0000000050536D8500000000000004B0
+t1347644805
+s1200
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/JSONKit.h
+c0000000050536D850000000000002F5E
+t1347644805
+s12126
+
+N/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000050536D8500000000000003A7
+t1347644805
+s935
+
+N/var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.pth
+t2
+s0
+
+Narmarium/armarium-Info.plist
+c0000000050536B1000000000000009CE
+t1347644176
+s2510
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf12d5860a503b641^5d375960a503b641^---0#1#0#--18"Check dependencies36"82396A5E-0036-49CE-A3F2-65EEACBFFB62-
+
+CCompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.o /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369337696.708409
+e369337696.792729
+r1
+xCompileC
+xbuild/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.o
+x/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m:78:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o    self.viewController.invokeString = invokeString;
+o                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m3d7cb560a503b641^70efca60a503b641^-255"/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m:78:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-369337696#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m0000000000000000^77#24#77#24#2530#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m0000000000000000^3873"CompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.o armarium/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-generated-files.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-own-target-headers.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-all-target-headers.hmap -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-project-headers.hmap -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/usr/local/lib/include -I/Library/WebServer/Documents/projetos/armarium/ios/build/UninstalledProducts/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources/i386 -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources -F/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -include /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.dia -c /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/AppDelegate.m -o /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/AppDelegate.o36"2E30C054-18B0-4363-8B2B-77A2BB40EF86-
+
+CCompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.o /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369337696.708398
+e369337696.783346
+r1
+xCompileC
+xbuild/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.o
+x/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o     if (self.invokeString)
+o              ^
+o/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
+o                                                                                            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.ma587b560a503b641^268ac860a503b641^-593"/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]     if (self.invokeString)              ^/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-369337696#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@104"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m0000000000000000^107#14#107#14#2852#0#12"Deprecations--2@28"'invokeString' is deprecated-369337696#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m0000000000000000^111#92#111#92#3262#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m0000000000000000^3915"CompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.o armarium/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-generated-files.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-own-target-headers.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-all-target-headers.hmap -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-project-headers.hmap -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/usr/local/lib/include -I/Library/WebServer/Documents/projetos/armarium/ios/build/UninstalledProducts/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources/i386 -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources -F/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -include /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.dia -c /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.m -o /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/MainViewController.o36"60518A34-89F5-4E92-9ECD-F085A3DAA3E0-
+
+CCompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.o /Library/WebServer/Documents/projetos/armarium/ios/armarium/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369337696.708420
+e369337696.735467
+r1
+xCompileC
+xbuild/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.o
+x/Library/WebServer/Documents/projetos/armarium/ios/armarium/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Library/WebServer/Documents/projetos/armarium/ios/armarium/main.mdb86b560a503b641^6a4cbc60a503b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/main.m0000000000000000^3815"CompileC build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.o armarium/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-generated-files.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-own-target-headers.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-all-target-headers.hmap -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-project-headers.hmap -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/usr/local/lib/include -I/Library/WebServer/Documents/projetos/armarium/ios/build/UninstalledProducts/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources/i386 -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources -F/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -include /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.d --serialize-diagnostics /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.dia -c /Library/WebServer/Documents/projetos/armarium/ios/armarium/main.m -o /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/main.o36"BABCC007-15EF-4D89-B119-258458F4A9A2-
+
+CCompileXIB /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.xib
+s369337696.404725
+e369337696.423629
+r1
+xCompileXIB
+x/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compiling /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.xib49bd6760a503b641^92756c60a503b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.xib0000000000000000^1118"CompileXIB armarium/Classes/MainViewController.xib    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/MainViewController.nib /Library/WebServer/Documents/projetos/armarium/ios/armarium/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"2C5C7BD6-9FC3-42CC-88F7-2BA8863C2D28-
+
+CCopyPlistFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Cordova.plist armarium/Resources/../Cordova.plist
+s369337696.392616
+e369337696.396647
+r1
+xCopyPlistFile
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Cordova.plist
+xarmarium/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy armarium/Resources/../Cordova.plist23a26460a503b641^508b6560a503b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/../Cordova.plist0000000000000000^743"CopyPlistFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Cordova.plist armarium/Resources/../Cordova.plist    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copyPlist --convert binary1 --outdir /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app -- armarium/Resources/../Cordova.plist36"3EBF8274-DA3E-4741-9429-CE041284A0DC-
+
+CCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/de.lproj/Localizable.strings armarium/Resources/de.lproj/Localizable.strings
+s369337696.408343
+e369337696.411177
+r1
+xCopyStringsFile
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/de.lproj/Localizable.strings
+xarmarium/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy armarium/Resources/de.lproj/Localizable.strings44a66860a503b641^22506960a503b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/de.lproj/Localizable.strings0000000000000000^834"CopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/de.lproj/Localizable.strings armarium/Resources/de.lproj/Localizable.strings    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/de.lproj -- armarium/Resources/de.lproj/Localizable.strings36"2A8DEBDD-CAB1-44F7-87BD-54023DF40ADA-
+
+CCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/en.lproj/Localizable.strings armarium/Resources/en.lproj/Localizable.strings
+s369337696.399954
+e369337696.403469
+r1
+xCopyStringsFile
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/en.lproj/Localizable.strings
+xarmarium/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy armarium/Resources/en.lproj/Localizable.strings7b886660a503b641^774a6760a503b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/en.lproj/Localizable.strings0000000000000000^834"CopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/en.lproj/Localizable.strings armarium/Resources/en.lproj/Localizable.strings    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/en.lproj -- armarium/Resources/en.lproj/Localizable.strings36"44B2473C-661E-4BAF-ABCF-2AB45B362F36-
+
+CCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/es.lproj/Localizable.strings armarium/Resources/es.lproj/Localizable.strings
+s369337696.403406
+e369337696.407085
+r1
+xCopyStringsFile
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/es.lproj/Localizable.strings
+xarmarium/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy armarium/Resources/es.lproj/Localizable.strings56616760a503b641^7a396860a503b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/es.lproj/Localizable.strings0000000000000000^834"CopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/es.lproj/Localizable.strings armarium/Resources/es.lproj/Localizable.strings    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/es.lproj -- armarium/Resources/es.lproj/Localizable.strings36"2C945998-931B-4B8C-94D6-8D720A7B6D3A-
+
+CCopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/se.lproj/Localizable.strings armarium/Resources/se.lproj/Localizable.strings
+s369337696.412446
+e369337696.415999
+r1
+xCopyStringsFile
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/se.lproj/Localizable.strings
+xarmarium/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy armarium/Resources/se.lproj/Localizable.strings4ab36960a503b641^24816a60a503b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/se.lproj/Localizable.strings0000000000000000^834"CopyStringsFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/se.lproj/Localizable.strings armarium/Resources/se.lproj/Localizable.strings    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/se.lproj -- armarium/Resources/se.lproj/Localizable.strings36"9CE7717C-F928-4A40-AEB5-FECAF7D5C8D8-
+
+CCpResource armarium/Resources/Capture.bundle /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Capture.bundle
+s369337696.397953
+e369337696.420610
+r1
+xCpResource
+xarmarium/Resources/Capture.bundle
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Capture.bundle64066660a503b641^7dad6b60a503b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Capture.bundle000000000080d041^848"CpResource armarium/Resources/Capture.bundle /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Capture.bundle    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/Capture.bundle /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"53242EF1-A5C0-466C-8E4E-7F8FA171FF03-
+
+CCpResource armarium/Resources/icons/icon-72.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon-72.png
+s369337696.392629
+e369337696.397358
+r1
+xCpResource
+xarmarium/Resources/icons/icon-72.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon-72.pngba9e6460a503b641^f1bb6560a503b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon-72.png000000000080d041^851"CpResource armarium/Resources/icons/icon-72.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon-72.png    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/icons/icon-72.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"D506C9A7-E73A-4B95-B1F2-E77A0D0136D0-
+
+CCpResource armarium/Resources/icons/icon.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon.png
+s369337696.392838
+e369337696.398655
+r1
+xCpResource
+xarmarium/Resources/icons/icon.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon.png0dab6460a503b641^4c176660a503b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon.png000000000080d041^842"CpResource armarium/Resources/icons/icon.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon.png    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/icons/icon.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"1BCE971F-EA09-4096-899F-59DEA7231935-
+
+CCpResource armarium/Resources/icons/icon@2x.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon@2x.png
+s369337696.397942
+e369337696.402130
+r1
+xCpResource
+xarmarium/Resources/icons/icon@2x.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon@2x.pngc8066660a503b641^ecf96660a503b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon@2x.png000000000080d041^857"CpResource "armarium/Resources/icons/icon@2x.png" "/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/icon@2x.png"    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/icons/icon@2x.png" /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"759EBFDA-CC6C-4777-B44C-6B0FB8D0B2BD-
+
+CCpResource armarium/Resources/splash/Default-Landscape@2x~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape@2x~ipad.png
+s369337696.417201
+e369337696.435875
+r1
+xCpResource
+xarmarium/Resources/splash/Default-Landscape@2x~ipad.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape@2x~ipad.png32e66a60a503b641^81956f60a503b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape@2x~ipad.png000000000080d041^913"CpResource "armarium/Resources/splash/Default-Landscape@2x~ipad.png" "/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape@2x~ipad.png"    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Landscape@2x~ipad.png" /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"610767FE-3624-4D1E-830D-FCA7F8228196-
+
+CCpResource armarium/Resources/splash/Default-Landscape~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape~ipad.png
+s369337696.422084
+e369337696.428772
+r1
+xCpResource
+xarmarium/Resources/splash/Default-Landscape~ipad.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape~ipad.pnga8366c60a503b641^a6d46d60a503b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape~ipad.png000000000080d041^904"CpResource "armarium/Resources/splash/Default-Landscape~ipad.png" "/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Landscape~ipad.png"    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Landscape~ipad.png" /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"9400F1F7-C959-4E4D-8CE5-757B95893B79-
+
+CCpResource armarium/Resources/splash/Default-Portrait@2x~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait@2x~ipad.png
+s369337696.425419
+e369337696.449192
+r1
+xCpResource
+xarmarium/Resources/splash/Default-Portrait@2x~ipad.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait@2x~ipad.png1c086d60a503b641^7eff7260a503b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait@2x~ipad.png000000000080d041^910"CpResource "armarium/Resources/splash/Default-Portrait@2x~ipad.png" "/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait@2x~ipad.png"    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Portrait@2x~ipad.png" /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"71DB9E2E-AE4F-4E08-B1B2-B6A7137C53A1-
+
+CCpResource armarium/Resources/splash/Default-Portrait~ipad.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait~ipad.png
+s369337696.430084
+e369337696.438796
+r1
+xCpResource
+xarmarium/Resources/splash/Default-Portrait~ipad.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait~ipad.png97386e60a503b641^75557060a503b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait~ipad.png000000000080d041^901"CpResource "armarium/Resources/splash/Default-Portrait~ipad.png" "/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default-Portrait~ipad.png"    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default-Portrait~ipad.png" /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"C9638221-B8EC-47CD-9721-0A795562F11E-
+
+CCpResource armarium/Resources/splash/Default@2x~iphone.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default@2x~iphone.png
+s369337696.437269
+e369337696.445097
+r1
+xCpResource
+xarmarium/Resources/splash/Default@2x~iphone.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default@2x~iphone.png170e7060a503b641^17f17160a503b641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default@2x~iphone.png000000000080d041^889"CpResource "armarium/Resources/splash/Default@2x~iphone.png" "/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default@2x~iphone.png"    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default@2x~iphone.png" /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"A7FB6F13-C9E8-4380-8254-741F49AA6B93-
+
+CCpResource armarium/Resources/splash/Default~iphone.png /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default~iphone.png
+s369337696.440142
+e369337696.442998
+r1
+xCpResource
+xarmarium/Resources/splash/Default~iphone.png
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default~iphone.pngbad87060a503b641^a5687160a503b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default~iphone.png000000000080d041^880"CpResource "armarium/Resources/splash/Default~iphone.png" "/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Default~iphone.png"    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Library/WebServer/Documents/projetos/armarium/ios/armarium/Resources/splash/Default~iphone.png" /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"74D821C8-7C0F-4F01-8588-A1F6DECF031B-
+
+CCpResource www /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/www
+s369337696.392622
+e369337696.457391
+r1
+xCpResource
+xwww
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/www289d6460a503b641^7e187560a503b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/www000000000080d041^777"CpResource www /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/www    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Library/WebServer/Documents/projetos/armarium/ios/www /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"776A8B3C-2CAD-4677-9A73-D398071C9BD1-
+
+CGenerateDSYMFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYM /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium
+s369337696.913860
+e369337697.003197
+r1
+xGenerateDSYMFile
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYM
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Generating /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYMe90eea60a503b641^0bd20061a503b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYM000000000080d041^903"GenerateDSYMFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYM /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium -o /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app.dSYM36"420EB0A4-C9BA-42B0-805B-B68AA7ABA721-
+
+CLd /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium normal i386
+s369337696.800032
+e369337696.907470
+r1
+xLd
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium3e04cd60a503b641^2750e860a503b641^---0#0#0#--1926"Ld /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium normal i386    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -F/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -filelist /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/armarium.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 /Users/wiltondeoliveiragarcia/projetos/armarium/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/armarium36"DA967342-E0E9-4439-A070-A0EEF7BCCF1D-
+
+CPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Script-304B58A110DAC018002A0835.sh
+s369337696.365746
+e369337696.384334
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'946b5e60a503b641^ed626260a503b641^---0#0#0#--20848"PhaseScriptExecution "Touch www folder" build/armarium.build/Debug-iphonesimulator/armarium.build/Script-304B58A110DAC018002A0835.sh    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER wiltondeoliveiragarcia    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Library/WebServer/Documents/projetos/armarium/ios/build    setenv BUILD_ROOT /Library/WebServer/Documents/projetos/armarium/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build    setenv CACHE_ROOT /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build    setenv CONFIGURATION_TEMP_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH armarium.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Library/WebServer/Documents/projetos/incubator-cordova-ios/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources    setenv DERIVED_FILE_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH armarium.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/armarium.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME armarium.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH armarium.app/Executables    setenv EXECUTABLE_FOLDER_PATH armarium.app    setenv EXECUTABLE_NAME armarium    setenv EXECUTABLE_PATH armarium.app/armarium    setenv FILE_LIST /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH armarium.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME armarium.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER armarium/armarium-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include\" \"/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/usr/local/lib/include\" \"/Library/WebServer/Documents/projetos/armarium/ios/build/UninstalledProducts/include\" \"/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE armarium/armarium-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH armarium.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH armarium.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/armarium.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER wiltondeoliveiragarcia    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/armarium.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH armarium.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal/i386/armarium.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH armarium.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12B19    setenv MAC_OS_X_VERSION_ACTUAL 1081    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0801    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects    setenv OBJECT_FILE_DIR_normal /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Objects-normal    setenv OBJROOT /Library/WebServer/Documents/projetos/armarium/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH armarium.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/PkgInfo    setenv PKGINFO_PATH armarium.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH armarium.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH armarium.app/PrivateHeaders    setenv PRODUCT_NAME armarium    setenv PRODUCT_SETTINGS_PATH /Library/WebServer/Documents/projetos/armarium/ios/armarium/armarium-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT armarium    setenv PROJECT_DERIVED_FILE_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/DerivedSources    setenv PROJECT_DIR /Library/WebServer/Documents/projetos/armarium/ios    setenv PROJECT_FILE_PATH /Library/WebServer/Documents/projetos/armarium/ios/armarium.xcodeproj    setenv PROJECT_NAME armarium    setenv PROJECT_TEMP_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build    setenv PUBLIC_HEADERS_FOLDER_PATH armarium.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH armarium.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_NAME iphonesimulator5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH armarium.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH armarium.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Library/WebServer/Documents/projetos/armarium/ios    setenv SRCROOT /Library/WebServer/Documents/projetos/armarium/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Library/WebServer/Documents/projetos/armarium/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME armarium    setenv TARGET_BUILD_DIR /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build    setenv TARGET_NAME armarium    setenv TARGET_TEMP_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build    setenv TEMP_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build    setenv TEMP_FILES_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build    setenv TEMP_FILE_DIR /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build    setenv TEMP_ROOT /Library/WebServer/Documents/projetos/armarium/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH armarium.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER wiltondeoliveiragarcia    setenv USER_APPS_DIR /Users/wiltondeoliveiragarcia/Applications    setenv USER_LIBRARY_DIR /Users/wiltondeoliveiragarcia/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH armarium.app/version.plist    setenv VERSION_INFO_BUILDER wiltondeoliveiragarcia    setenv VERSION_INFO_FILE armarium_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:armarium  PROJECT:armarium-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME armarium.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4F1003    setenv XCODE_VERSION_ACTUAL 0441    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0440    setenv YACC yacc    /bin/sh -c /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/Script-304B58A110DAC018002A0835.sh36"C5050FF4-3785-495E-B53F-01C5F413247B-
+
+CProcessInfoPlistFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Info.plist armarium/armarium-Info.plist
+s369337696.354190
+e369337696.357559
+r1
+xProcessInfoPlistFile
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Info.plist
+xarmarium/armarium-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process armarium/armarium-Info.plist8ecd5a60a503b641^e7895b60a503b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/armarium-Info.plist0000000000000000^888"ProcessInfoPlistFile /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Info.plist armarium/armarium-Info.plist    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    builtin-infoPlistUtility armarium/armarium-Info.plist -genpkginfo /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app/Info.plist36"7D9BC4F5-CAF2-438D-ADFE-FEA5BFE03756-
+
+CProcessPCH /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.pth armarium/armarium-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369337696.465446
+e369337696.701451
+r1
+xProcessPCH
+x/var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.pth
+xarmarium/armarium-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile armarium/armarium-Prefix.pchf94b7760a503b641^5793b360a503b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Library/WebServer/Documents/projetos/armarium/ios/armarium/armarium-Prefix.pch0000000000000000^3837"ProcessPCH /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.pth armarium/armarium-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-generated-files.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-own-target-headers.hmap -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-all-target-headers.hmap -iquote /Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/armarium-project-headers.hmap -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/usr/local/lib/include -I/Library/WebServer/Documents/projetos/armarium/ios/build/UninstalledProducts/include -I/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources/i386 -I/Library/WebServer/Documents/projetos/armarium/ios/build/armarium.build/Debug-iphonesimulator/armarium.build/DerivedSources -F/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build --serialize-diagnostics /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.dia -c /Library/WebServer/Documents/projetos/armarium/ios/armarium/armarium-Prefix.pch -o /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hp/1jmcs79s6bq6v8171vxr9g400000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/armarium-Prefix-hbvjwcobpfieznaltjcjosrxcdoz/armarium-Prefix.pch.d36"14FCAAF6-2294-4D85-8F80-14D4AB8043B5-
+
+CTouch /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app
+s369337697.011018
+e369337697.016691
+r1
+xTouch
+x/Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.appbde50261a503b641^c7460461a503b641^---0#0#0#--619"Touch /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app    cd /Library/WebServer/Documents/projetos/armarium/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/wiltondeoliveiragarcia/android-sdk-macosx/tools:/Users/wiltondeoliveiragarcia/android-sdk-macosx/platform-tools"    /usr/bin/touch -c /Users/wiltondeoliveiragarcia/projetos/armarium/ios/cordova/../build/armarium.app36"4546BD44-F672-4880-A7B6-FB7C38971F2E-
+
