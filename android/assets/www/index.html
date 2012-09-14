@@ -4,9 +4,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name = "format-detection" content = "telephone=no"/>
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" title="roboto">
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/dragdealer.css" />
-        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/armarium.css">
+
         <script type="text/javascript" src="js/cordova-2.0.0.js"></script>
         <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -21,7 +24,7 @@
     <body>
         <ul class="nav nav-tabs" id="menu">
             <li>
-                <img src="img/logo.jpg" alt="armarium" />
+                <img alt="armarium" id="logo" class="logo">
             </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">View<b class="caret"></b></a>
@@ -60,6 +63,9 @@
                     <div id="slideshow" class="dragdealer">
                         <div class="handle">
                             <img class="slide" width="400px" height="400px" src="{{ item.image }}" ng-repeat="item in list">
+                            <ul>
+                                <li ng-repeat="item in list">{{ item.title }}<br>{{ item.description }}</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
